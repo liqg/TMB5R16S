@@ -24,6 +24,16 @@ matplotlib.use('Agg')
 ## Usage Instructions
 
 - Download this repository.
-
+```shell
+git clone https://github.com/liqg/TMB5R16S
+```
 - Build the container.
+```shell
+cd TMB5R16S
+docker build . -t tmb5r16s
+```
 - Run the program to get the results.
+```shell
+mkdir results
+docker run --rm -it -v $PWD:$PWD -w $PWD tmb5r16s python2 Analysis_pipeline_16S_TMB.py
+```
