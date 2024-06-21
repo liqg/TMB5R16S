@@ -1,6 +1,6 @@
 # A modified TMB pipeline
 
-This repository includes the TMB analysis process used in the paper based on, with the following changes:
+This repository includes the TMB analysis process used in the paper based on.
 
 - A `Dockerfile` has been added for building a Docker container to run this process.
 - The `metadata.xlsx`, `reconstruction.txt` and `reconstruction_first_line` used in this article are included.
